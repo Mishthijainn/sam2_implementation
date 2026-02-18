@@ -1,0 +1,21 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# Project Specific
+checkpoints/
+results/
+segment-anything-2/
+crack_detection_sam2 (1).ipynb
+
+# Data
+*.jpg
+*.png
+!test_result.png
